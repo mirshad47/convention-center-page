@@ -2,27 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>convention</title>
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-
     <header class="">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container my-4">
-                <h1 class="ms-auto">Abacus Convensition Center</h1>
+                <h2 class="ms-auto fw-bold">Abacus Convensition Center</h2>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto ">
-                        <h5><a class="nav-link active" aria-current="page" href="#">Home</a></h5>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <h5>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </h5>
                         <h5><a class="nav-link" href="#">Features</a></h5>
                         <h5><a class="nav-link" href="#">Pricing</a></h5>
                         <h5><a class="nav-link" aria-disabled="true">Disabled</a></h5>
@@ -30,10 +31,85 @@
                 </div>
             </div>
         </nav>
+
+        <!-- carasoul  -->
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./resource/images/banner.png" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h1 class="text-white display-4 fw-bold ">The perfect venue for your <br> next event</h1>
+                        <p class="text-white">
+                            Some representative placeholder content for the first slide.
+                        </p>
+
+                        <div>
+                            <button class="btn bg-white mb-3 px-5 py-3 text-secondary fw-bold">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./resource/images/banner.png" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-white display-4 fw-bold mb-5">The perfect venue for your <br> next event</h1>
+                        <p>
+                            Some representative placeholder content for the second slide.
+                        </p>
+                        <div>
+                            <button class="btn bg-white mb-3 px-5 py-3 text-secondary fw-bold">
+                                Book Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./resource/images/banner.png" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>
+                            Some representative placeholder content for the third slide.
+                        </p>
+                        
+                        <div>
+                            <button class="btn bg-white mb-3 px-5 py-3 text-secondary fw-bold">
+                                Book Now
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
 
+    <!-- main section -->
 
-
+    <!-- bootstrap js link -->
     <script src="./js/bootstrap.js"></script>
 </body>
 
