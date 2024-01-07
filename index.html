@@ -314,9 +314,9 @@
 
     <!------------------------ asked questions------------------- -->
 
-    <section class="container">
+    <section class="container my-5 py-5">
         <h1 class="text-center my-5 py-5 fw-bold">Frequently asked questions</h1>
-        <div class="row">
+        <div class="row my-5 py-5">
             <div class="col-md-6">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
@@ -374,14 +374,45 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How do you keep budgets on track?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
-                
+                <img class="ms-5 shadow" src="./resource/images/people.png" alt="">
             </div>
 
         </div>
     </section>
+
+    <footer class="bg-dark mt-5 pt-5">
+        <div class="row container">
+            <div class="col-md-6">
+                <div class="ms-5 ps-5">
+                    <h5 class="text-white py-5 ms-5 ps-5">
+                        © 2020. All rights reserved
+                    </h5>
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </footer>
 
     <!-- bootstrap js link -->
     <script src="./js/bootstrap.js"></script>
